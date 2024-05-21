@@ -10,6 +10,17 @@ class HomePage extends StatefulWidget {
 class _HomePageState extends State<HomePage> {
   @override
   Widget build(BuildContext context) {
-  return Scaffold();
+  return Scaffold(
+    backgroundColor: Colors.green[200],
+    appBar: AppBar(
+      title: Text('TO DO'),
+      elevation: 0,
+    ),
+    body: Listview(
+      children: [
+        ToDoList(),
+      ]
+    )
+  );
   }
 }
