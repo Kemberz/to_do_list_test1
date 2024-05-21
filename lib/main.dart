@@ -13,8 +13,8 @@ class MainApp extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       home: HomePage(),
-      //theme: ThemeData(primarySwatch: Colors.yellow),
-      theme: ThemeData(colorScheme:  ColorScheme.fromSwatch(primarySwatch: Colors.green)),
+      theme: ThemeData(primarySwatch: Colors.yellow),
+      //theme: ThemeData(colorScheme:  ColorScheme.fromSwatch(primarySwatch: Colors.green)),
     );
   }
 }
